@@ -16,6 +16,7 @@ public class day01 {
             //1、打开浏览器（edge）
             driver.get("https://www.baidu.com");
             //1、打开浏览器（edge）
+            //1、打开浏览器（edge）
             driver.manage().window().maximize();
 
 
