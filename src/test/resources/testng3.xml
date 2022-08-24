@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="柠檬商城">
+    <test name="全局化操作">
+        <classes>
+            <class name="com.lemon.Global"> </class>
+        </classes>
+    </test>
+
+    <test name="登入">
+        <classes>
+            <class name="com.lemon.LoginTest"> </class>
+        </classes>
+    </test>
+
+    <test name="注册">
+        <classes>
+            <class name="com.lemon.RegisterTest"> </class>
+        </classes>
+    </test>
+</suite>

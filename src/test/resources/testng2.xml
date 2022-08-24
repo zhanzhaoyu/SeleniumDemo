@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="柠檬商城">
+    <test name="登入">
+        <classes>
+            <class name="com.lemon.TestNGDemo2"> </class>
+        </classes>
+    </test>
+    <parameter name ="type" value="chorm"></parameter>
+    <parameter name ="version" value="8.0"></parameter>
+</suite>
+
