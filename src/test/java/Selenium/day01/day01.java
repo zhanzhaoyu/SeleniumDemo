@@ -13,7 +13,6 @@ public class day01 {
             //1、打开浏览器（edge）
             System.setProperty("webdriver.edge.driver","src/test/resources/msedgedriver.exe");
             EdgeDriver driver = new EdgeDriver();
-            //1、打开浏览器（edge）
             driver.get("https://www.baidu.com");
             driver.manage().window().maximize();
 
