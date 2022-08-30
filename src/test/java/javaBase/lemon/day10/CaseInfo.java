@@ -1,5 +1,5 @@
 package javaBase.lemon.day10;
-
+import cn.afterturn.easypoi.excel.annotation.Excel;
 public class CaseInfo {
     @Excel(name="序号(caseId)")
     private  Integer id;
