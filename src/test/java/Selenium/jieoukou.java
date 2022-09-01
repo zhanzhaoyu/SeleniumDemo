@@ -44,7 +44,7 @@ public class jieoukou {
     }
     public Response request(String metmod, String url, Map<String,Object> map, String params){
         Response response3 =null;
-        if(metmod.equals("get")){
+        if(metmod.equalsIgnoreCase("get")){
             response3 =
                     given().
                             headers(map).
@@ -55,15 +55,15 @@ public class jieoukou {
                             log().all().extract().response();//打印响应报文，并保存值变量中
 
 
-        }else if(metmod.equals("post")){
+        }else if(metmod.equalsIgnoreCase("post")){
             response3 =
             given().
                     body(params).
                     headers(map).
-                    when().
-                    get(url).
+            when().
+                    post(url).
 
-                    then().
+            then().
                     log().all().extract().response();//打印响应报文，并保存值变量中
 
 

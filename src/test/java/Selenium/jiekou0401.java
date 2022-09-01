@@ -7,7 +7,7 @@ public class jiekou0401 {
 private int caseid;
     @Excel(name="用例标题")
 private String  title;
-    @Excel(name="用请求头")
+    @Excel(name="请求头")
 private String  heafer;
     @Excel(name="请求方式")
 private String  method;
